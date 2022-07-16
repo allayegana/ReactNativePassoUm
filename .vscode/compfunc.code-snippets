@@ -1,0 +1,20 @@
+{
+	"Componentes Funcional": {
+	 	"scope": "javascript",
+	"prefix": "compfunc",
+	 	"body": [
+	        "import React, { useState } from 'react'";
+			"import { Button, Text } from 'react-native'";
+			"import estilo from './estilo'",
+	        "",
+			"export default props => {",
+			"        return (",
+			"               <Text style={estilo.testogrande}>",
+			"                   $1",
+			"                </Text>",
+			"                )",
+			"}"
+	 	],
+	 	"description": "Log output to console"
+	 }
+}

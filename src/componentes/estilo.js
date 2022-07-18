@@ -3,7 +3,8 @@ import { StyleSheet } from "react-native";
 export default StyleSheet.create({
     testogrande:{
         fontSize:32,
-        textAlign:'center'
+        textAlign:'center',
+        padding:10
 
     },
 

@@ -1,7 +1,8 @@
 import React from "react";
 import { StyleSheet, SafeAreaView } from 'react-native';
-import If from "./componentes/conditionel/If";
-import UsuarioLegado from "./componentes/conditionel/UsuarioLegado";
+import ListaProdutosV2 from "./componentes/produtos/ListaProdutosV2";
+//import If from "./componentes/conditionel/If";
+//import UsuarioLegado from "./componentes/conditionel/UsuarioLegado";
 //import Primeiro from "./componentes/primeiro";
 //import ComponentesPadrao from "./componentes/Multi"
 //import MinMax from "./componentes/MinMax";
@@ -21,12 +22,14 @@ import UsuarioLegado from "./componentes/conditionel/UsuarioLegado";
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
-      <UsuarioLegado USUARIO={{nome:'ALLAYE' , email:'allaye.gana@gmail.com'}}></UsuarioLegado>
+      <ListaProdutosV2 />
+     
+      {/*
+       <UsuarioLegado USUARIO={{nome:'ALLAYE' , email:'allaye.gana@gmail.com'}}></UsuarioLegado>
       <UsuarioLegado USUARIO={{email:'allaye.gana@gmail.com'}}></UsuarioLegado>
       <UsuarioLegado USUARIO={{}}></UsuarioLegado>
       <UsuarioLegado USUARIO={null}></UsuarioLegado>
       <UsuarioLegado USUARIO={{nome:'yacou' , email:'yacou@gmail.com'}}></UsuarioLegado>
-      {/*
          <Familia>
         <Membro nome="IBRAHIM" sobrenome="GANA" />
         <Membro nome="ALI" sobrenome="GANA" />

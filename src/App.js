@@ -1,6 +1,12 @@
 import React from "react";
 import { StyleSheet, SafeAreaView } from 'react-native';
-import ListaProdutosV2 from "./componentes/produtos/ListaProdutosV2";
+import FlexBoxV4 from "./componentes/layout/FlexBoxV4";
+//import FlexBoxV3 from "./componentes/layout/FlexBoxV3";
+//import FlexBoxV2 from "./componentes/layout/FlexBoxV2";
+//import Flexbox from "./componentes/layout/Flexbox";
+//import Quadrado from "./componentes/layout/Quadrado";
+//import DigitseuNome from "./componentes/DigitseuNome";
+//import ListaProdutosV2 from "./componentes/produtos/ListaProdutosV2";
 //import If from "./componentes/conditionel/If";
 //import UsuarioLegado from "./componentes/conditionel/UsuarioLegado";
 //import Primeiro from "./componentes/primeiro";
@@ -22,9 +28,13 @@ import ListaProdutosV2 from "./componentes/produtos/ListaProdutosV2";
 export default function App() {
   return (
     <SafeAreaView style={style.App}>
-      <ListaProdutosV2 />
-     
+      <FlexBoxV4 />
       {/*
+      <FlexBoxV3 />
+      <FlexBoxV2 />
+    <Flexbox />
+      <DigitseuNome />
+      <ListaProdutosV2 />
        <UsuarioLegado USUARIO={{nome:'ALLAYE' , email:'allaye.gana@gmail.com'}}></UsuarioLegado>
       <UsuarioLegado USUARIO={{email:'allaye.gana@gmail.com'}}></UsuarioLegado>
       <UsuarioLegado USUARIO={{}}></UsuarioLegado>

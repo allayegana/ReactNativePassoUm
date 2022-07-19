@@ -10,6 +10,7 @@ export default props => {
             {p.id}) {p.nome} tem preco R$ : {p.preco}
         </Text>
     }
+
     return (
         <>
             <Text style={estilo.testogrande}>
